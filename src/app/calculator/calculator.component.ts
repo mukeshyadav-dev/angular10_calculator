@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './calculator.component.html',
   styleUrls: ['./calculator.component.scss']
 })
+
 export class CalculatorComponent implements OnInit {
 
   currentNumber = '0';
